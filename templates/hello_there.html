@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block title %}
+Hello there!
+{% endblock %}
+{% block content %}
+<br><br><br><br>
+    {%if name %}
+    <span class="message">Hello there, {{ name }}!!!!</span><br>It's {{ date.strftime("%A, %d %B, %Y at %X") }}.
+    {% else %}
+    <span class="message">What's your name? Provide it after /hello/ in the URL.</span>
+    {% endif %}
+<br><br><br><br>
+{% endblock %}

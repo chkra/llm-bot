@@ -1,0 +1,60 @@
+#textInput {
+    border: none;
+    border-bottom: 3px solid #0082D1;
+}
+
+.userText {
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: right;
+    line-height: 30px;
+}
+.userText span {
+    background-color: 	#AFAFAF;
+    padding: 10px;
+    border-radius: 2px;
+}
+.botText {
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: left;
+    line-height: 30px;
+}
+.botText span {
+    background-color: #76B900;
+    padding: 10px;
+    border-radius: 2px;
+}
+#container {
+    border: none;
+}
+.navbar {
+    background-color: #76B900;;
+    font-size: 1em;
+    font-family: 'Verdana', sans-serif;
+    color: white;
+    padding: 8px 5px 8px 5px;
+    text-align: left;
+}
+
+/* unvisited link */
+a:link {
+    color: rgba(255,255,255,1);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgba(255,255,255,1);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color:rgba(255,255,255,1);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgba(255,255,255,1);
+  }

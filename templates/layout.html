@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>{% block title %}{% endblock %}</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}"  />
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+            <link rel="stylesheet" href="/static/style.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <div class="navbar">
+            <img src="{{ url_for('static', filename='Q17_HTW_Berlin_Logo_quer_neg_SW_RGB.png') }}" height="100">
+            <a href="{{ url_for('home') }}" class="navbar-brand">Home</a>&nbsp;|&nbsp;
+            <a href="{{ url_for('about') }}" class="navbar-item">About</a>&nbsp;|&nbsp;
+            <a href="{{ url_for('contact') }}" class="navbar-item">Contact</a>
+        &nbsp;
+        </div>
+        <div class="body-content">
+            {% block content %}
+            {% endblock %}
+            &nbsp;
+        </div>
+        
+    </body>
+</html>
