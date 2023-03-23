@@ -13,6 +13,7 @@ Right now, the data (found in `htw-data/htw-data.txt` contains only a few senten
 Make environment and setup dependencies:
 ```
 conda create --name htw-bot python=3.11
+conda activate htw-bot
 pip install -r requirements.txt
 ```
 

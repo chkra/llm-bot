@@ -3,7 +3,7 @@ from flask import Flask, render_template, request
 from llama_index import GPTSimpleVectorIndex, Document, SimpleDirectoryReader
 import os
 
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = "your api key here"
 
 app = Flask(__name__)
 
