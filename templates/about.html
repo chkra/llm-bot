@@ -4,11 +4,15 @@ About us
 {% endblock %}
 {% block content %}
 <br><br>
-<h1>HTW ChatGPT Bot Demo</h1>
+<h1>GPT Bot Demo</h1>
 <br><br>
-<p>This site shows a simple proof-of-concept for a ChatGPT-based Chat Bot. We use llama_index to fine tune ChatGPT with data from the website of the <a href="htw-berlin.de"><font color="#76B900">Hochschule für Technik und Wirtschaft Berlin</font></a>. </p>
+<p>This site shows 
+<div class="page-header" style="margin-top: 20px; margin-bottom: 20px;">
+<ul>
+    <li> a simple proof-of-concept for a ChatGPT-based Chat Bot. We use llama_index to for RAG with data from the website of  <a href="htw-berlin.de"><font color="#76B900">HTW Berlin</font></a></li>
+    <li>another simple proof of concept to use ChatGPT as an ad-hoc code writer for an interactive analytics tool. We create JavaScript code based on user input, and execute it client side to analyse client side data. Inspired by a post by <a href="https://towardsdatascience.com/exploring-data-analysis-via-natural-language-approach-1-224965d1fb16#0ecb"><font color="#76B900">Luciano Abrata</font></a></li>
+</ul>
 
-<p>Right now, the data (found in `htw-data/htw-data.txt` contains only a few sentences and was scraped manually (!). In the demo shown below, we ask specifically for content mentioned in this text file.</p>
 
 <p>For further questions, contact <font color="#76B900"> <a href=https://www.htw-berlin.de/hochschule/personen/person/?eid=13856><font color="#76B900">Christina Kratsch | HTW Berlin</font></a></p>
 {% endblock %}

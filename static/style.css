@@ -1,8 +1,8 @@
 #textInput {
-    border: none;
-    border-bottom: 3px solid #0082D1;
+    border: 1px solid #0082D1;
+    border-bottom: 1px solid #0082D1;
+    padding: 10px;
 }
-
 .userText {
     color: white;
     font-family: monospace;
@@ -30,14 +30,17 @@
 #container {
     border: none;
 }
-.navbar {
-    background-color: #76B900;;
+.navi {
+    background-color: #76B900;
+}
+
+/*.navbar {
+    background-color: #76B900;
     font-size: 1em;
     font-family: 'Verdana', sans-serif;
     color: white;
-    padding: 8px 5px 8px 5px;
     text-align: left;
-}
+}*/
 
 /* unvisited link */
 a:link {

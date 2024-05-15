@@ -1,3 +1,4 @@
 Flask
 openai
 llama-index
+llama-index-readers-web
