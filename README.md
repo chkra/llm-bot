@@ -6,14 +6,18 @@ This repository shows simple proof-of-concept for two llm-based chat bots:
 
  First, a simple ChatGPT-based Bot with RAG. We use llama_index to for with data from the website of  <a href="htw-berlin.de"><font color="#76B900">HTW Berlin</font></a>. Right now, the data (found in `./data` contains only a few sentences and was scraped manually. In the demo shown below, we ask specifically for content mentioned in this text file.
 Second, we show another simple proof of concept to use ChatGPT as an ad-hoc code writer for an interactive analytics tool. We create JavaScript code based on user input, and execute it client side to analyse client side data. This code was inspired by a post by <a href="https://towardsdatascience.com/exploring-data-analysis-via-natural-language-approach-1-224965d1fb16#0ecb"><font color="#76B900">Luciano Abrata</font></a>.
+<br><br>
 
+---
 
 HTW Chatbot Demo:
-![Demo of HTW Chat Bot](other/anim1.gif "Demo of chat bot")
+<img src="other/anim1.gif width="50%">
 
+<br><br>
 Analytics Bot Demo:
-![Demo of Analytics Bot](other/anim2.gif "Demo of analytics bot")
+<img src="other/anim2.gif width="50%">
 
+---
 
 
 ## Local Setup
