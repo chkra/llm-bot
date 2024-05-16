@@ -1,12 +1,20 @@
-# Simple Text Based Chat Bot for a Website
+# Simple llm bot demos
 
 ## About
 
-This repository shows a simple proof-of-concept for a ChatGPT-based Chat Bot. We use llama_index to fine tune ChatGPT with data from the website of the _Hochschule für Technik und Wirtschaft Berlin_. 
+This repository shows simple proof-of-concept for two llm-based chat bots:
 
-Right now, the data (found in `htw-data/htw-data.txt` contains only a few sentences and was scraped manually (!). In the demo shown below, we ask specifically for content mentioned in this text file.
+ First, a simple ChatGPT-based Bot with RAG. We use llama_index to for with data from the website of  <a href="htw-berlin.de"><font color="#76B900">HTW Berlin</font></a>. Right now, the data (found in `./data` contains only a few sentences and was scraped manually. In the demo shown below, we ask specifically for content mentioned in this text file.
+Second, we show another simple proof of concept to use ChatGPT as an ad-hoc code writer for an interactive analytics tool. We create JavaScript code based on user input, and execute it client side to analyse client side data. This code was inspired by a post by <a href="https://towardsdatascience.com/exploring-data-analysis-via-natural-language-approach-1-224965d1fb16#0ecb"><font color="#76B900">Luciano Abrata</font></a>.
 
-![Demo of HTW Chat Bot](other/Animation.gif "Demo of HTW Chat Bot")
+
+HTW Chatbot Demo:
+![Demo of HTW Chat Bot](other/anim1.mp4 "Demo of chat bot")
+
+Analytics Bot Demo:
+![Demo of Analytics Bot](other/anim2.mp4 "Demo of analytics bot")
+
+
 
 ## Local Setup
 
@@ -17,7 +25,7 @@ conda activate htw-bot
 pip install -r requirements.txt
 ```
 
-You need to replace the ChatGPT API Key in `app.py` with your own key to get the code running. You can request your own API Key [here](https://platform.openai.com/account/api-keys) at OpenAI.
+You need to replace the ChatGPT API Key in `app.py` with your own key to get the code running.
 
 Run Flask demo:
 ```
@@ -26,21 +34,16 @@ python app.py
 Move to to URL in your browser to see the demo.
 
 
-## Next steps
-
-This is only a proof of concept, obviously. Several improvements are necessary to gain a production-ready app:
-* replace ChatGPT model with offline LLaMA model to proof on-premise capabilities
-* scrape information from HTW website to build a suitable knowledge base for `llama_index`.
-
 ## Sources
 
 The following tutorials were used to build this:
 
-* HowTo Lllama: https://bootcamp.uxdesign.cc/a-step-by-step-guide-to-building-a-chatbot-based-on-your-own-documents-with-gpt-2d550534eea5
-* HowTo Flask: https://codinginfinite.com/chatbot-in-python-flask-tutorial/
-* HowTo more Flask with Llama: https://gpt-index.readthedocs.io/en/latest/guides/fullstack_app_guide.html#flask-backend 
+* [HowTo Lllama](https://bootcamp.uxdesign.cc/a-step-by-step-guide-to-building-a-chatbot-based-on-your-own-documents-with-gpt-2d550534eea5)
+* [HowTo Flask](https://codinginfinite.com/chatbot-in-python-flask-tutorial/)
+* [HowTo more Flask with Llama](https://gpt-index.readthedocs.io/en/latest/guides/fullstack_app_guide.html#flask-backend)
+* [How to use LLMs to create Code](https://towardsdatascience.com/exploring-data-analysis-via-natural-language-approach-1-224965d1fb16#0ecb)
 
 Also helpful:
 * https://github.com/logan-markewich/llama_index_starter_pack
 * https://betterprogramming.pub/how-to-build-your-own-custom-chatgpt-with-custom-knowledge-base-4e61ad82427e
-https://beebom.com/how-build-own-ai-chatbot-with-chatgpt-api/
+* https://beebom.com/how-build-own-ai-chatbot-with-chatgpt-api/
