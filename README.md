@@ -9,10 +9,10 @@ Second, we show another simple proof of concept to use ChatGPT as an ad-hoc code
 
 
 HTW Chatbot Demo:
-![Demo of HTW Chat Bot](other/anim1.mp4 "Demo of chat bot")
+![Demo of HTW Chat Bot](other/anim1.gif "Demo of chat bot")
 
 Analytics Bot Demo:
-![Demo of Analytics Bot](other/anim2.mp4 "Demo of analytics bot")
+![Demo of Analytics Bot](other/anim2.gif "Demo of analytics bot")
 
 
 
