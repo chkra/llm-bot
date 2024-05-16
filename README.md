@@ -9,13 +9,13 @@ Second, we show another simple proof of concept to use ChatGPT as an ad-hoc code
 <br><br>
 
 ---
-
-HTW Chatbot Demo:
-<img src="other/anim1.gif width="50%">
+<br>
+HTW Chatbot Demo:<br>
+<img src="./other/anim1.gif" width="50%">
 
 <br><br>
-Analytics Bot Demo:
-<img src="other/anim2.gif width="50%">
+Analytics Bot Demo:<br>
+<img src="./other/anim2.gif" width="50%">
 
 ---
 
