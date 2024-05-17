@@ -108,7 +108,7 @@ def analysis():
 def get_bot_response():
     # chatbot is set in service context
     userText = request.args.get('msg')
-    query_engine = index.as_query_engine(    response_mode="simple_summarize", verbose=True)
+    query_engine = index.as_query_engine(response_mode="simple_summarize", verbose=True)
     response = query_engine.query(userText)
     return str(response)
 
