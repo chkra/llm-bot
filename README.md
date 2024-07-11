@@ -1,3 +1,4 @@
+[![Board Status](https://dev.azure.com/christinakratsch/5dae53cb-cde8-4fc0-98af-58d65f0ca11c/625d4095-1f8f-4fb8-b6da-0b10b9b2d752/_apis/work/boardbadge/28899f39-a677-42d1-965d-9393245a71a6)](https://dev.azure.com/christinakratsch/5dae53cb-cde8-4fc0-98af-58d65f0ca11c/_boards/board/t/625d4095-1f8f-4fb8-b6da-0b10b9b2d752/Microsoft.RequirementCategory)
 # Simple llm bot demos
 
 ## About
